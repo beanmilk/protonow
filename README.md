@@ -12,7 +12,7 @@ protoNow
 
 # How to make package?
 There are two ways.
-* 1)Run autobuild.cmd under root path , you will get a package named "ProtoNow1.9.3-Setup.exe" under "Install" folder.( No need to install Visual Studio and NSIS)
+* 1)Run autobuild.cmd under root path , you will get a package named "ProtoNow1.9.3-Setup.exe" under "Install" folder.(You need to install Nsis but no need to install Visual Studio)
 
 * 2)We use NSIS to make package, if you want to compile NSIS Script yourself, please following this:
 1. Install latest NSIS, and build solution in release mode using Visual studio.
@@ -25,30 +25,27 @@ There are two ways.
  
  # Third party libraries
  * SharpVectors : used to dispay and edit SVG.    
-  https://sharpvectors.codeplex.com/   
-  Dlls：   
-  SharpVectors.Converters.dll       
-  SharpVectors.Core.dll       
-  SharpVectors.Css.dll     
-  SharpVectors.Dom.dll    
-  SharpVectors.Model.dll    
-  SharpVectors.Rendering.Wpf.dll    
-  SharpVectors.Runtime.dll       
+  https://sharpvectors.codeplex.com/       
   
 
  * AvalonDock : layout of UI.   
-  https://avalondock.codeplex.com/    
- Dlls:    
- Xceed.Wpf.AvalonDock.dll    
- Xceed.Wpf.AvalonDock.Themes.Aero.dll       
+  https://avalondock.codeplex.com/        
  
   
  * RibbonControlsLibrary : part of toolbar.       
  https://msdn.microsoft.com/en-us/library/ff799534.aspx   
- Dll:   
- RibbonControlsLibrary.dll   
  
  * Nlog   
-  http://nlog-project.org/    
- Dll:   
- NLog.dll    
+  http://nlog-project.org/   
+  
+  
+# Bug Report
+If you find a bug, please report to us posting [issues](https://github.com/naver/protonow/issues) on GitHub.
+
+# License
+Licensed under the LGPL v2.1, see [LICENSE](https://github.com/naver/protonow/blob/master/LICENSE) for details.   
+Copyright 2017 NAVER China, Inc. see [COPYING](https://github.com/naver/protonow/blob/master/COPYING) for details.  
+Third parties licenses, see  [NOTICE](https://github.com/naver/protonow/blob/master/NOTICE) for details.   
+
+
+
