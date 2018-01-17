@@ -44,7 +44,7 @@ If you find a bug, please report to us posting [issues](https://github.com/naver
 
 # License
 Licensed under the LGPL v2.1, see [LICENSE](https://github.com/naver/protonow/blob/master/LICENSE) for details.   
-Copyright (C) 2018 NAVER China Corp. see [COPYING](https://github.com/naver/protonow/blob/master/COPYING) for details.  
+Copyright (C) 2018 NAVER Corp. see [COPYING](https://github.com/naver/protonow/blob/master/COPYING) for details.  
 Third parties licenses, see  [NOTICE](https://github.com/naver/protonow/blob/master/NOTICE) for details.   
 
 
